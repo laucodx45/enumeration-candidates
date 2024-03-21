@@ -5,5 +5,10 @@ require './candidates'
 require './filters'
 
 ## Your test code can go here
-
-pp @candidates
+pp find(5, @candidates)
+print "\n"
+pp experienced?(@candidates[1])
+print "\n"
+pp qualified_candidates(@candidates)
+print "\n"
+pp ordered_by_qualifications(@candidates)
